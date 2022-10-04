@@ -31,6 +31,16 @@ const wines = [
     price: '₡5.000',
     tags: '2 X 1',
   },
+  {
+    title: 'Alitas 12 unidades',
+    price: '₡8.000',
+    tags: 'Buffalo | Mostaza Miel | BBQ',
+  },
+  {
+    title: 'Alitas 24 unidades',
+    price: '₡15.000',
+    tags: 'Buffalo | Mostaza Miel | BBQ',
+  },
 ];
 
 const bocas = [
@@ -221,6 +231,31 @@ const bocas = [
   },
 
 ];
+
+const promocionesBocas = [
+  {
+    title: 'Balde de Bavaria',
+    price: '₡7.000',
+    tags: '4 Cervezas',
+  },
+  {
+    title: 'Balde de Corona',
+    price: '₡8.500',
+    tags: '4 Cervezas',
+  },
+  {
+    title: 'Balde de Heineken',
+    price: '₡7.000',
+    tags: '4 Cervezas',
+  },
+  {
+    title: 'Balde de Cervezas Nacionales',
+    price: '7.500',
+    tags: '6 Cervezas',
+  },
+
+];
+
 
 const cocktails = [
   {
