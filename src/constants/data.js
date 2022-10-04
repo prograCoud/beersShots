@@ -256,7 +256,6 @@ const promocionesBocas = [
 
 ];
 
-
 const cocktails = [
   {
     title: 'Balde de Bavaria',
