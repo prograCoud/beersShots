@@ -3,7 +3,6 @@ import React from 'react';
 // import { SubHeading, MenuItem } from '../../components';
 import { MenuItem } from '../../components';
 import { dataDrinks, images } from '../../constants';
-import dataDrinks from '../../constants/dataDrinks';
 import './SpecialMenuDrinks.css';
 
 const SpecialMenuDrinks = () => (

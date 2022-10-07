@@ -103,4 +103,4 @@ const awards = [
   },
 ];
 
-export default { wines, cocktails, bocas, promocionesBocas, awards };
+export default { wines, cocktails, promocionesBocas, awards };
