@@ -9,7 +9,7 @@ const SpecialMenuDrinks = () => (
   <div className="app__specialMenu flex__center section__padding" id="menu">
     <div className="app__specialMenu-title">
       {/* <SubHeading title="Menu that fits your palatte" /> */}
-      <h1 className="headtext__cormorant">Promociones</h1>
+      <h1 className="headtext__cormorant">bebidas</h1>
     </div>
     <div className="app__wrapper_img">
       <img src={images.findus} alt="findus_img" />
@@ -36,22 +36,29 @@ const SpecialMenuDrinks = () => (
           ))}
         </div>
       </div>
-
+      {/*
       <div className="app__wrapper_img">
         <img src={images.welcome} alt="findus_img" />
-      </div>
+      </div> */}
 
-      <div className="app__specialMenu-menu_cocktails  flex__center">
+      {/* <div className="app__specialMenu-menu_cocktails  flex__center">
         <p className="app__specialMenu-menu_heading" style={{ marginTop: 55 }}>Bocas</p>
         <div className="app__specialMenu_menu_items">
           {dataDrinks.bocas.map((bocas, index) => (
             <MenuItem key={bocas.title + index} title={bocas.title} price={bocas.price} tags={bocas.tags} />
           ))}
         </div>
-      </div>
+          </div> */}
 
       <div className="app__specialMenu-menu_cocktails  flex__center">
         <p className="app__specialMenu-menu_heading" style={{ marginTop: 55 }}>Promoción de alitas</p>
+        <div className="app__specialMenu_menu_items">
+          {dataDrinks.promocionesTragos.map((promocionesTragos, index) => (
+            <MenuItem key={promocionesTragos.title + index} title={promocionesTragos.title} price={promocionesTragos.price} tags={promocionesTragos.tags} />
+          ))}
+        </div>
+      </div>
+      <div className="app__specialMenu-menu_cocktails  flex__center">
         <div className="app__specialMenu_menu_items">
           {dataDrinks.promocionesBocas.map((promocionesBocas, index) => (
             <MenuItem key={promocionesBocas.title + index} title={promocionesBocas.title} price={promocionesBocas.price} tags={promocionesBocas.tags} />
