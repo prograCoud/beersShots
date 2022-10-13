@@ -24,10 +24,6 @@ const SpecialMenuDrinks = () => (
         </div>
       </div>
 
-      <div className="app__specialMenu-menu_img">
-        <img src={images.menu} alt="menu__img" />
-      </div>
-
       <div className="app__specialMenu-menu_cocktails  flex__center">
         <p className="app__specialMenu-menu_heading">Promos</p>
         <div className="app__specialMenu_menu_items">
@@ -45,22 +41,9 @@ const SpecialMenuDrinks = () => (
           ))}
         </div>
       </div>
-      {/*
-      <div className="app__wrapper_img">
-        <img src={images.welcome} alt="findus_img" />
-      </div> */}
-
-      {/* <div className="app__specialMenu-menu_cocktails  flex__center">
-        <p className="app__specialMenu-menu_heading" style={{ marginTop: 55 }}>Bocas</p>
-        <div className="app__specialMenu_menu_items">
-          {dataDrinks.bocas.map((bocas, index) => (
-            <MenuItem key={bocas.title + index} title={bocas.title} price={bocas.price} tags={bocas.tags} />
-          ))}
-        </div>
-          </div> */}
 
       <div className="app__specialMenu-menu_cocktails  flex__center">
-        <p className="app__specialMenu-menu_heading" style={{ marginTop: 55 }}>Tragos</p>
+        <p className="app__specialMenu-menu_heading" style={{ marginTop: 55 }}>Shots</p>
         <div className="app__specialMenu_menu_items">
           {dataDrinks.tragos.map((tragos, index) => (
             <MenuItem key={tragos.title + index} title={tragos.title} price={tragos.price} tags={tragos.tags} />
@@ -68,11 +51,74 @@ const SpecialMenuDrinks = () => (
         </div>
       </div>
 
-    </div>
+      <div className="app__specialMenu-menu_cocktails  flex__center">
+        <p className="app__specialMenu-menu_heading">Cuarta</p>
+        <div className="app__specialMenu_menu_items">
+          {dataDrinks.cuarta.map((cuarta, index) => (
+            <MenuItem key={cuarta.title + index} title={cuarta.title} price={cuarta.price} tags={cuarta.tags} />
+          ))}
+        </div>
+      </div>
 
-    {/* <div style={{ marginTop: 15 }}>
-      <button type="button" className="custom__button">View More</button>
-          </div> */}
+      <div className="app__specialMenu-menu_cocktails  flex__center">
+        <p className="app__specialMenu-menu_heading">Botella</p>
+        <div className="app__specialMenu_menu_items">
+          {dataDrinks.botella.map((botella, index) => (
+            <MenuItem key={botella.title + index} title={botella.title} price={botella.price} tags={botella.tags} />
+          ))}
+        </div>
+      </div>
+
+      <div className="app__specialMenu-menu_cocktails  flex__center">
+        <p className="app__specialMenu-menu_heading">Litro</p>
+        <div className="app__specialMenu_menu_items">
+          {dataDrinks.litro.map((litro, index) => (
+            <MenuItem key={litro.title + index} title={litro.title} price={litro.price} tags={litro.tags} />
+          ))}
+        </div>
+      </div>
+
+      <div className="app__specialMenu-menu_img">
+        <img src={images.menu} alt="menu__img" />
+      </div>
+
+      <div className="app__specialMenu-menu_cocktails  flex__center">
+        <p className="app__specialMenu-menu_heading">Cócteles</p>
+        <div className="app__specialMenu_menu_items">
+          {dataDrinks.cocktails.map((cocktails, index) => (
+            <MenuItem key={cocktails.title + index} title={cocktails.title} price={cocktails.price} tags={cocktails.tags} />
+          ))}
+        </div>
+      </div>
+
+      <div className="app__specialMenu-menu_cocktails  flex__center">
+        <p className="app__specialMenu-menu_heading">Vinos</p>
+        <div className="app__specialMenu_menu_items">
+          {dataDrinks.vinos.map((vinos, index) => (
+            <MenuItem key={vinos.title + index} title={vinos.title} price={vinos.price} tags={vinos.tags} />
+          ))}
+        </div>
+      </div>
+
+      <div className="app__specialMenu-menu_cocktails  flex__center">
+        <p className="app__specialMenu-menu_heading">Bebidas sin alcohol</p>
+        <div className="app__specialMenu_menu_items">
+          {dataDrinks.bebidas.map((bebidas, index) => (
+            <MenuItem key={bebidas.title + index} title={bebidas.title} price={bebidas.price} tags={bebidas.tags} />
+          ))}
+        </div>
+      </div>
+
+      <div className="app__specialMenu-menu_cocktails  flex__center">
+        <p className="app__specialMenu-menu_heading">Cigarros</p>
+        <div className="app__specialMenu_menu_items">
+          {dataDrinks.cigarros.map((cigarros, index) => (
+            <MenuItem key={cigarros.title + index} title={cigarros.title} price={cigarros.price} tags={cigarros.tags} />
+          ))}
+        </div>
+      </div>
+
+    </div>
   </div>
 );
 
