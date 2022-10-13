@@ -114,7 +114,7 @@
     }
 
     .app__navbar-smallscreen {
-        display: flex;
+        display: none;
     }
 }
 
