@@ -1,6 +1,6 @@
 import React from 'react';
-import { FiFacebook, FiTwitter, FiInstagram } from 'react-icons/fi';
-
+import { FiFacebook, FiInstagram } from 'react-icons/fi';
+// import { Link } from 'react-router-dom';
 /* import { FooterOverlay, Newsletter } from '../../components'; */
 import { FooterOverlay } from '../../components';
 import { images } from '../../constants';
@@ -24,9 +24,9 @@ const Footer = () => (
         <p className="p__opensans">&quot;Pinares. Plaza La Carpintera - Carretera Vieja A Cartago. 350 Mts Este De La Estaci&oacute;n De Servicio La Galera., Curridabat 11801 Costa Rica&quot;</p>
         <img src={images.spoon} className="spoon__img" style={{ marginTop: 15 }} />
         <div className="app__footer-links_icons">
-          <FiFacebook />
-          <FiTwitter />
-          <FiInstagram />
+          <a aria-label="facebook icon" target="_blank" rel="noreferrer" href="https://www.facebook.com/BeerShotsBar"><FiFacebook /></a>
+          <a aria-label="instagram icon" target="_blank" rel="noreferrer" href="https://instagram.com/beer_shots_pinares"><FiInstagram /></a>
+
         </div>
       </div>
 

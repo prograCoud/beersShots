@@ -80,5 +80,20 @@ module.exports = {
         ],
       },
     ],
+    "jsx-a11y/anchor-has-content": [ 0, {
+      "components": [ "Anchor" ],
+    }],
+    "jsx-a11y/anchor-is-valid": [
+      "off",
+      {
+        "components": ["Link"],
+        "specialLink": ["hrefLeft", "hrefRight"],
+        "aspects": ["noHref", "invalidHref", "preferButton"]
+      }
+    ],
+    "react/self-closing-comp": [ 0 , {
+      "component": true,
+      "html": true
+    }],
   },
 };
