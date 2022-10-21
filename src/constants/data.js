@@ -108,6 +108,16 @@ const hamburguesas = [
     price: '₡6.500',
     tags: '',
   },
+  {
+    title: 'Hamburguesa de patacon',
+    price: '₡6.500',
+    tags: '',
+  },
+  {
+    title: 'Hamburguesa de pollo',
+    price: '₡6.500',
+    tags: 'Empanizado | Grill | Bufalo o BBQ',
+  },
 ];
 
 const bocas = [
@@ -177,6 +187,11 @@ const bocas = [
     tags: 'Buffalo | Mostaza Miel | BBQ',
   },
   {
+    title: 'Alitas parmesanas',
+    price: '₡4.200',
+    tags: 'Buffalo | Mostaza Miel | BBQ',
+  },
+  {
     title: 'Dedos de queso',
     price: '₡3.800',
     tags: 'Buffalo | Mostaza Miel | BBQ | Morron',
@@ -210,6 +225,11 @@ const bocas = [
     title: 'Chalupa',
     price: '₡3.800',
     tags: 'Carne | Pollo',
+  },
+  {
+    title: 'Fajitas',
+    price: '₡3.800',
+    tags: 'Carne | Pollo | Jalapeñas | Cerdo | Mixtas',
   },
   {
     title: 'Taquitos',
@@ -269,11 +289,6 @@ const bocas = [
   {
     title: 'Surtido de 2 personas',
     price: '₡8.500',
-    tags: '',
-  },
-  {
-    title: 'Hamburguesa de patacon',
-    price: '₡4.000',
     tags: '',
   },
   {
@@ -367,6 +382,11 @@ const salsas = [
     title: 'Patacones',
     price: '1.400',
     tags: '',
+  },
+  {
+    title: 'Patacones especiales',
+    price: '4..000',
+    tags: 'Pollo | Res',
   },
 ];
 
