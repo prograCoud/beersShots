@@ -10,10 +10,7 @@ const SpecialMenu = () => (
     <div className="app__specialMenu-title">
       {/* <SubHeading title="Menu that fits your palatte" /> */}{/*
       <h1 className="headtext__cormorant">Promociones</h1> */}
-    </div> {/*
-    <div className="app__wrapper_img">
-      <img src={images.findus} alt="findus_img" />
-    </div> */}
+    </div>
     <div className="app__specialMenu-menu">
       <div className="app__specialMenu-menu_wine  flex__center">
         <p className="app__specialMenu-menu_heading">Lunes a Jueves</p>
@@ -73,10 +70,6 @@ const SpecialMenu = () => (
       </div>
 
     </div>
-
-    {/* <div style={{ marginTop: 15 }}>
-      <button type="button" className="custom__button">View More</button>
-          </div> */}
   </div>
 );
 

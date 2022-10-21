@@ -15,8 +15,8 @@ const Footer = () => (
       <div className="app__footer-links_contact">
         <h1 className="app__footer-headtext">Contáctenos</h1>
         <p className="p__opensans"> </p>
-        <p className="p__opensans">+506 4033-5054</p>
-        <p className="p__opensans">+506 6386-6138</p>
+        <p className="p__opensans"><a href="tel:+50640335054">+506 4033-5054</a></p>
+        <p className="p__opensans"><a href="+50663866138">+506 6386-6138</a></p>
       </div>
 
       <div className="app__footer-links_logo">
