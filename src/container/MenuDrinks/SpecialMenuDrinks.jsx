@@ -46,34 +46,7 @@ const SpecialMenuDrinks = () => (
         <p className="app__specialMenu-menu_heading" style={{ marginTop: 55 }}>Shots</p>
         <div className="app__specialMenu_menu_items">
           {dataDrinks.tragos.map((tragos, index) => (
-            <MenuItem key={tragos.title + index} title={tragos.title} price={tragos.price} tags={tragos.tags} />
-          ))}
-        </div>
-      </div>
-
-      <div className="app__specialMenu-menu_cocktails  flex__center">
-        <p className="app__specialMenu-menu_heading">Cuarta</p>
-        <div className="app__specialMenu_menu_items">
-          {dataDrinks.cuarta.map((cuarta, index) => (
-            <MenuItem key={cuarta.title + index} title={cuarta.title} price={cuarta.price} tags={cuarta.tags} />
-          ))}
-        </div>
-      </div>
-
-      <div className="app__specialMenu-menu_cocktails  flex__center">
-        <p className="app__specialMenu-menu_heading">Botella</p>
-        <div className="app__specialMenu_menu_items">
-          {dataDrinks.botella.map((botella, index) => (
-            <MenuItem key={botella.title + index} title={botella.title} price={botella.price} tags={botella.tags} />
-          ))}
-        </div>
-      </div>
-
-      <div className="app__specialMenu-menu_cocktails  flex__center">
-        <p className="app__specialMenu-menu_heading">Litro</p>
-        <div className="app__specialMenu_menu_items">
-          {dataDrinks.litro.map((litro, index) => (
-            <MenuItem key={litro.title + index} title={litro.title} price={litro.price} tags={litro.tags} />
+            <MenuItem key={tragos.title + index} title={tragos.title} price={tragos.price} price2={tragos.price2} price3={tragos.price3} price4={tragos.price4} tags={tragos.tags} />
           ))}
         </div>
       </div>
