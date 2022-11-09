@@ -321,7 +321,7 @@ const promocionesBocas = [
     tags: 'Buffalo | Mostaza Miel | BBQ',
   },
   {
-    title: 'Alitas 24 unidades',
+    title: 'Alitas 20 unidades',
     price: '₡15.000',
     tags: 'Buffalo | Mostaza Miel | BBQ',
   },
@@ -374,8 +374,13 @@ const salsas = [
     tags: '',
   },
   {
-    title: 'Papas fritas o Yuca',
+    title: 'Yuca frita',
     price: '1.200',
+    tags: '',
+  },
+  {
+    title: 'Papas fritas',
+    price: '2.400',
     tags: '',
   },
   {
