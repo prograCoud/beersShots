@@ -1,8 +1,8 @@
 const platosFuertes = [
   {
-    title: 'Plato beer shots',
+    title: 'Ensalada Beers Shots',
     price: '₡5.500',
-    tags: 'Ensalada Beers Shots | Pollo Empanizado o Grill | Camarón',
+    tags: 'Pollo Empanizado o Grill | Camarón',
   },
   {
     title: 'Lomito de res',
@@ -110,13 +110,18 @@ const hamburguesas = [
   },
   {
     title: 'Hamburguesa de patacon',
-    price: '₡6.500',
+    price: '₡4.000',
     tags: '',
   },
   {
     title: 'Hamburguesa de pollo',
-    price: '₡6.500',
-    tags: 'Empanizado | Grill | Bufalo o BBQ',
+    price: '₡4.500',
+    tags: 'Empanizado | Grill | Bufalo | BBQ',
+  },
+  {
+    title: 'Hamburguesa beer shots',
+    price: '₡4.900',
+    tags: '',
   },
 ];
 
@@ -143,12 +148,12 @@ const bocas = [
   },
   {
     title: 'Ceviche mixto',
-    price: '₡3.900',
+    price: '₡4.200',
     tags: 'Pescado | Camaron | Pulpo',
   },
   {
     title: 'Ceviche',
-    price: '₡3.700',
+    price: '₡3.900',
     tags: 'Chips | Platano',
   },
   {
@@ -158,7 +163,7 @@ const bocas = [
   },
   {
     title: 'Chicken fingers',
-    price: '₡4.500',
+    price: '₡3.900',
     tags: 'Buffalo | Mostaza Miel | BBQ | Morron',
   },
   {
@@ -169,7 +174,7 @@ const bocas = [
   {
     title: 'Fajitas',
     price: '₡3.800',
-    tags: 'Pollo | Jalapeñas | Cerdo | Mixtas',
+    tags: 'Carne | Pollo | Jalapeñas | Cerdo | Mixtas',
   },
   {
     title: 'Quesadilla',
@@ -227,11 +232,6 @@ const bocas = [
     tags: 'Carne | Pollo',
   },
   {
-    title: 'Fajitas',
-    price: '₡3.800',
-    tags: 'Carne | Pollo | Jalapeñas | Cerdo | Mixtas',
-  },
-  {
     title: 'Taquitos',
     price: '₡3.700',
     tags: 'Res | Pollo | Queso',
@@ -282,6 +282,11 @@ const bocas = [
     tags: 'Res | Pollo | Mixto',
   },
   {
+    title: 'Papas fritas',
+    price: '2.400',
+    tags: '',
+  },
+  {
     title: 'Camarones al gusto',
     price: '₡4.200',
     tags: 'Ajillo | Empanizados',
@@ -301,17 +306,7 @@ const bocas = [
     price: '₡2.800',
     tags: 'Chorizo | Salchichon',
   },
-  {
-    title: 'Hamburguesa de pollo',
-    price: '₡4.500',
-    tags: 'Empanizado | Grill | Buffalo | BBQ',
-  },
-  {
-    title: 'Hamburguesa beer shots',
-    price: '₡4.900',
-    tags: '',
-  },
-
+  
 ];
 
 const promocionesBocas = [
@@ -360,7 +355,7 @@ const salsas = [
   },
   {
     title: 'Arroz blanco',
-    price: '700',
+    price: '800',
     tags: '',
   },
   {
@@ -370,7 +365,7 @@ const salsas = [
   },
   {
     title: 'Aguacate',
-    price: '1.000',
+    price: '1.200',
     tags: '',
   },
   {
@@ -380,7 +375,7 @@ const salsas = [
   },
   {
     title: 'Papas fritas',
-    price: '2.400',
+    price: '1.200',
     tags: '',
   },
   {

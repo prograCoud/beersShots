@@ -371,7 +371,7 @@ const cocktails = [
   },
   {
     title: 'Sangría',
-    price: '1.200',
+    price: '3.500',
     tags: '',
   },
   {
@@ -425,7 +425,7 @@ const cervezas = [
   },
   {
     title: 'Heineken',
-    price: '2.500',
+    price: '2.000',
     tags: '',
   },
 
@@ -449,7 +449,7 @@ const promoCervezas = [
   },
   {
     title: 'Balde de Cervezas Nacionales',
-    price: '7.500',
+    price: '8.000',
     tags: '6 Cervezas',
   },
 
