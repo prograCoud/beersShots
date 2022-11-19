@@ -109,19 +109,14 @@ const hamburguesas = [
     tags: '',
   },
   {
-    title: 'Hamburguesa de patacon',
+    title: 'de patacon',
     price: '₡4.000',
     tags: '',
   },
   {
-    title: 'Hamburguesa de pollo',
+    title: 'de pollo',
     price: '₡4.500',
     tags: 'Empanizado | Grill | Bufalo | BBQ',
-  },
-  {
-    title: 'Hamburguesa beer shots',
-    price: '₡4.900',
-    tags: '',
   },
 ];
 
