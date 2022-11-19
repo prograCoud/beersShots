@@ -306,7 +306,7 @@ const bocas = [
     price: '₡2.800',
     tags: 'Chorizo | Salchichon',
   },
-  
+
 ];
 
 const promocionesBocas = [
