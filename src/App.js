@@ -1,4 +1,14 @@
 import React from 'react';
+import { Analytics } from '@vercel/analytics/react';
+ 
+function MyApp({ Component, pageProps }) {
+  return (
+    <>
+      <Component {...pageProps} />
+      <Analytics />
+    </>
+  );
+};
 
 // import { AboutUs, Chef, FindUs, Footer, Gallery, Header, Intro, Laurels, SpecialMenu } from './container';
 import { Footer, SpecialMenu, SpecialMenuDrinks } from './container';
