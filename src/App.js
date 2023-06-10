@@ -1,26 +1,25 @@
 import React from 'react';
-import { Analytics } from '@vercel/analytics/react';
-import { Footer, SpecialMenu, SpecialMenuDrinks } from './container';
-import { Navbar } from './components';
+import Analytics from '@vercel/analytics/dist/client';
+import Footer from './container/Footer';
+import SpecialMenu from './container/SpecialMenu';
+import SpecialMenuDrinks from './container/SpecialMenuDrinks';
+import Navbar from './components/Navbar';
 import './App.css';
 
 const App = () => (
-  <div>
+  <>
     <Navbar />
     <SpecialMenu />
     <SpecialMenuDrinks />
     <Footer />
-  </div>
+  </>
 );
 
-const MyApp = ({ Component, pageProps }) => {
+const MyApp = (props) => {
   return (
-    <>
-      <Component {...pageProps} />
-      <Analytics />
-    </>
+      <><props.Component {...props.pageProps} /><Analytics /></>
   );
 };
 
 export default App;
-export { MyApp, Analytics };
+export { MyApp };
