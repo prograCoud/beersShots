@@ -1,6 +1,6 @@
 import React from 'react';
 import { Analytics } from '@vercel/analytics/react';
-import function MyApp({ Component, pageProps }) {
+import MyApp from ({ Component, pageProps }) => {
   return (
     <>
       <Component {...pageProps} />
