@@ -1,7 +1,7 @@
 import React from 'react';
 import Analytics from '@vercel/analytics/dist/client';
 import Footer from './container/Footer';
-import SpecialMenu from './container/SpecialMenu';
+import SpecialMenu from './container/Menu/SpecialMenu';
 import SpecialMenuDrinks from './container/MenuDrinks/SpecialMenuDrinks';
 import Navbar from './components/Navbar';
 import './App.css';
