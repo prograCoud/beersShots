@@ -1,12 +1,12 @@
 import React from 'react';
 import { Analytics } from '@vercel/analytics/react';
-function MyApp({ Component, pageProps }) {
+import function MyApp({ Component, pageProps }) {
   return (
     <>
       <Component {...pageProps} />
       <Analytics />
     </>
-  )
+  );
 };
 
 // import { AboutUs, Chef, FindUs, Footer, Gallery, Header, Intro, Laurels, SpecialMenu } from './container';
@@ -30,4 +30,4 @@ const App = () => (
   </div>
 );
 
-export default {App, MyApp};
+export default { App, MyApp, Analytics};
