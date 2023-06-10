@@ -22,4 +22,5 @@ const MyApp = ({ Component, pageProps }) => {
   );
 };
 
-export { App, MyApp, Analytics };
+export default App;
+export { MyApp, Analytics };
