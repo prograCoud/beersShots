@@ -50,7 +50,7 @@
   },
   "exports": {
     "@vercel/analytics": {
-      "dist": "./node_modules/@vercel/analytics/dist/"
+      "dist/client": "./node_modules/@vercel/analytics/dist/package.json"
     }
   }  
 }
