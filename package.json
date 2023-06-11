@@ -49,6 +49,8 @@
     "eslint-plugin-react-hooks": "^4.2.0"
   },
   "exports": {
-    "./dist/client": "./dist/client"
-  }
+    "@vercel/analytics": {
+      "dist/client": "./node_modules/@vercel/analytics/dist/client"
+    }
+  }  
 }
