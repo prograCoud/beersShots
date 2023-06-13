@@ -10,12 +10,3 @@ export {
   SpecialMenuDrinks,
 };
 
-const fs = require('fs');
-
-try {
-  // Checking if file exists using fs.accessSync
-  fs.accessSync('./container/Footer.js', fs.constants.R_OK);
-} catch (err) {
-  console.error('./container/Footer.js file does not exist');
-}
-
