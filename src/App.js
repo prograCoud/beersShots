@@ -1,9 +1,9 @@
 import React from 'react';
-import Analytics from '@vercel/analytics/dist/client';
-import Footer from './container/Footer';
+import Analytics from '@vercel/analytics';
+import Footer from './container/Footer/Footer';
 import SpecialMenu from './container/Menu/SpecialMenu';
 import SpecialMenuDrinks from './container/MenuDrinks/SpecialMenuDrinks';
-import Navbar from './components/Navbar';
+import Navbar from './components/Navbar/Navbar';
 import './App.css';
 
 const App = () => (
