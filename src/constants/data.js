@@ -19,7 +19,7 @@ const platosFuertes = [
     price: '₡8.500',
     tags: '',
   },
-  {
+  { 
     title: 'Beer shots honey chicken',
     price: '₡6.000',
     tags: '',
