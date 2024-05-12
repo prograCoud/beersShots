@@ -549,7 +549,7 @@ const cigarros = [
     price: '₡3.200',
     tags: '',
   },
-
+ 
 ];
 
 export default { tragos, cocktails, promocionesTragos, cervezas, promoCervezas, vinos, bebidas, cigarros };
