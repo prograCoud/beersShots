@@ -771,3 +771,4 @@ const cigarros = [
 ];
 
 export default { tragos, tragos2, cocktails, promocionesTragos, cervezas, promoCervezas, vinos, bebidas, cigarros };
+
