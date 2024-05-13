@@ -306,11 +306,6 @@ const promocionesTragos = [
     price: '₡3.500',
     tags: 'Jameson',
   },
-  {
-    title: 'Gin Tonic',
-    price: '₡5.800',
-    tags: '2 X 1',
-  },
 ];
 
 const tragos2 = [
@@ -624,7 +619,7 @@ const promoCervezas = [
     tags: '2 X 1',
   },
   {
-    title: 'Gin Tonic',
+    title: 'Gin & Tonic',
     price: '₡5.800',
     tags: '2 X 1',
   },

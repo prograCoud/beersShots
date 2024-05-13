@@ -327,11 +327,6 @@ const bocas = [
     tags: 'Ajillo | Empanizados',
   },
   {
-    title: 'Surtido de 2 personas',
-    price: '₡8.500',
-    tags: '',
-  },
-  {
     title: 'Canasta de patacón con camarones',
     price: '₡4.500',
     tags: '',
