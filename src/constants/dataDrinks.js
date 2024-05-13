@@ -311,11 +311,6 @@ const promocionesTragos = [
     price: '₡5.800',
     tags: '2 X 1',
   },
-  {
-    title: 'Smirnoff',
-    price: '₡2.700',
-    tags: '',
-  },
 ];
 
 const tragos2 = [
@@ -507,7 +502,7 @@ const cervezas = [
   },
   {
     title: 'Smirnoff ICE',
-    price: '2.500',
+    price: '2.700',
     tags: '',
   },
   {
