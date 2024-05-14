@@ -140,14 +140,6 @@ const tragos = [
     tags: '',
   },
   {
-    title: 'Cacique',
-    price: '₡1.200',
-    price2: '₡3.500',
-    price3: '₡5.500',
-    price4: '₡15.000',
-    tags: '',
-  },
-  {
     title: 'Antioqueño',
     price: '₡1.700',
     price2: '₡7.000',
@@ -288,7 +280,7 @@ const promocionesTragos = [
   },
   {
     title: 'Vodka',
-    price: '₡2.500',
+    price: '₡2.700',
     tags: 'Smirnoff',
   },
   {
@@ -303,7 +295,7 @@ const promocionesTragos = [
   },
   {
     title: 'Whisky 2X',
-    price: '₡3.500',
+    price: '₡3.600',
     tags: 'Jameson',
   },
 ];
@@ -497,17 +489,12 @@ const cervezas = [
   },
   {
     title: 'Smirnoff ICE',
-    price: '2.700',
+    price: '2.500',
     tags: '',
   },
   {
     title: 'Modelo',
     price: '2.200',
-    tags: '',
-  },
-  {
-    title: 'Bud Light',
-    price: '2.000',
     tags: '',
   },
   {
@@ -570,7 +557,7 @@ const promoCervezas = [
   },
   {
     title: 'Balde de Heineken',
-    price: '₡7.000',
+    price: '₡7.500',
     tags: '4 Cervezas',
   },
   {
@@ -602,6 +589,21 @@ const promoCervezas = [
     title: 'Chiliguaro',
     price: '2.000',
     tags: '2 X 1',
+  },
+  {
+    title: 'Cacique',
+    price: '₡1.200',
+    tags: 'Shot',
+  },
+  {
+    title: 'Cacique',
+    price: '₡5.500',
+    tags: 'Media',
+  },
+  {
+    title: 'Cacique',
+    price: '₡15.000',
+    tags: 'Litro',
   },
   {
     title: 'Chilifresa',
@@ -673,11 +675,6 @@ const bebidas = [
   {
     title: 'Ligas 500 ML',
     price: '₡1.700',
-    tags: '',
-  },
-  {
-    title: 'Batidos',
-    price: '₡1.500',
     tags: '',
   },
   {
@@ -756,6 +753,11 @@ const cigarros = [
   {
     title: 'Vaporizador pequeño',
     price: '7.000',
+    tags: '',
+  },
+  {
+    title: 'Vapor CBD',
+    price: '10.000',
     tags: '',
   },
 ];
