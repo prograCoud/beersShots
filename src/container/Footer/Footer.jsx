@@ -32,10 +32,8 @@ const Footer = () => (
 
       <div className="app__footer-links_work">
         <h1 className="app__footer-headtext">Horario</h1>
-        <p className="p__opensans">Lunes-Viernes:</p>
-        <p className="p__opensans">11:00 am - 12:00 pm</p>
-        <p className="p__opensans">S&aacute;bado-Domingo:</p>
-        <p className="p__opensans">10:00 am - 11:00 pm</p>
+        <p className="p__opensans">Todos los días:</p>
+        <p className="p__opensans">12:00 md - 1:30 am</p>
       </div>
     </div>
 

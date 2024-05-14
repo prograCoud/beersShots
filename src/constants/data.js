@@ -1,10 +1,5 @@
 const platosFuertes = [
   {
-    title: 'Ensalada Beers Shots',
-    price: '₡5.500',
-    tags: 'Pollo Empanizado o Grill | Camarón',
-  },
-  {
     title: 'Lomito de res',
     price: '₡7.000',
     tags: 'Jalapeño | Salsa de hongos',
@@ -53,11 +48,6 @@ const platosFuertes = [
     title: 'Filet de pescado al gusto',
     price: '₡6.300',
     tags: 'Ajillo | Empanizado',
-  },
-  {
-    title: 'Filet de pollo al gusto',
-    price: '₡6.500',
-    tags: 'Ajillo | A la plancha | A la mantequilla',
   },
   {
     title: 'Camarones al gusto',
@@ -143,12 +133,12 @@ const hamburguesas = [
 const bocas = [
   {
     title: 'Arroz con camarones',
-    price: '₡4.000',
+    price: '₡4.500',
     tags: 'Papas | Ensalada',
   },
   {
     title: 'Arroz con pollo',
-    price: '₡3.700',
+    price: '₡4.000',
     tags: 'Papas | Ensalada',
   },
   {
@@ -223,7 +213,7 @@ const bocas = [
   },
   {
     title: 'Alitas parmesanas',
-    price: '₡4.200',
+    price: '₡4.500',
     tags: 'Buffalo | Mostaza Miel | BBQ',
   },
   {
@@ -318,7 +308,7 @@ const bocas = [
   },
   {
     title: 'Papas fritas',
-    price: '2.400',
+    price: '2.600',
     tags: '',
   },
   {
@@ -421,11 +411,6 @@ const salsas = [
     title: 'Patacones',
     price: '1.500',
     tags: '',
-  },
-  {
-    title: 'Patacones especiales',
-    price: '4..000',
-    tags: 'Pollo | Res',
   },
   {
     title: 'Pico de gallo',
